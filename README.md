@@ -30,7 +30,6 @@
 ### 2. 添加 secrets
 * 点击`Settings`-->`Secrets`-->`New repository secret`，进入新建页面。
   ![secrets.PNG](pictures/2.png)
-  ![actions.PNG](pictures/3.png)
 * 在`Name`栏输入`id`，`Value`栏输入自己的学号，然后点击`Add secret`。
 * 再次点击`New repository secret`，进入新建页面。
 * 在`Name`栏输入`pwd`，`Value`栏输入自己学号的登录密码，然后点击`Add secret`。  
@@ -44,11 +43,15 @@
 * 暂不支持多人模式  
 ### 3.启用 Actions
 * 点击上方的`Actions`，点击确认启用`Actions`功能。
-* 点击左侧`ZZU COMMUTE HELPER`，点击`Run workflow`，运行一次项目。
-  ![check.PNG](pictures/4.png)
+* 点击左侧`ZZU COMMUTE HELPER`，点击`Run workflow`，运行一次项目。静静等待QQ邮件通知，一般两分钟左右QQ邮箱就收到了。
+  ![check.PNG](pictures/3.png)
+* 如果今天还未打卡，就会收到以下提示：
+  ![check.PNG](pictures/5.png)
+* 如果今天已经打卡，也会收到以下提示：
+  ![check.PNG](pictures/6.png)
 
 项目部署完毕后，可以在`Actions`页面点击`View workflow file`查看结果。
-  ![check.PNG](pictures/5.png)
+  ![check.PNG](pictures/4.png)
 如有疑问可通过`Issues`功能提交问题，如出现签到失败的问题请耐心等待更新。
 
 ---
